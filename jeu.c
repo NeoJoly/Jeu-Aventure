@@ -148,6 +148,10 @@ while (jeucomplet != 4) {
 
   int choixdestination;
   int lieuactuel = 1;
+  int lieu2gagne;
+  int lieu3gagne;
+  int lieu4gagne;
+  int lieu5gagne;
 
   // choix destination
   color(15, 0);
@@ -217,7 +221,7 @@ while (jeucomplet != 4) {
     int pvjoueur = 50;
     int choixjoueur;
     int pvspectre = 50;
-    int lieu2gagne = 0;
+    lieu2gagne = 0;
     color(9, 0);
     printf("Un spectre t'attaque !\n\n");
     Sleep(500);
@@ -268,7 +272,7 @@ while (jeucomplet != 4) {
     int pvjoueur2 = 50;
     int choixjoueur2;
     int pvelfenoir = 50;
-    int lieu3gagne = 0;
+    lieu3gagne = 0;
     color(9, 0);
     printf("Un Elfe Noir t'attaque !\n\n");
     Sleep(500);
@@ -318,7 +322,7 @@ while (jeucomplet != 4) {
     int pvjoueur3 = 50;
     int choixjoueur3;
     int pvgobelinglace = 50;
-    int lieu4gagne = 0;
+    lieu4gagne = 0;
     color(9, 0);
     printf("Un Gobelin de Glace t'attaque !\n\n");
     Sleep(500);
@@ -368,7 +372,7 @@ while (jeucomplet != 4) {
     int pvjoueur4 = 50;
     int choixjoueur4;
     int pvdragon = 50;
-    int lieu5gagne = 0;
+    lieu5gagne = 0;
     color(9, 0);
     printf("Un Dragon Supreme t'attaque !\n\n");
     Sleep(500);
